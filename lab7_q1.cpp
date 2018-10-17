@@ -24,7 +24,7 @@ long power(int m,int n)
      {
 	   //applying condition
 	   if(n>0)
-             return (pow(m,n-1)*m);
+             return (power(m,n-1)*m);
            else
              return 1;
 	   
